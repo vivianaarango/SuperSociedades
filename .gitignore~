@@ -1,0 +1,9 @@
+config/config.php
+public/testPush.php
+app/config/config.php
+/nbproject/private/
+desktop.ini
+.idea/workspace.xml
+
+# Ignore Mac DS_Store files
+.DS_Store

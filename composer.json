@@ -1,0 +1,26 @@
+{
+    "require": {
+        "google/cloud": "^0.32.1",
+        "phpoffice/phpexcel": "^1.8",
+        "gasparesganga/php-shapefile": "^2.2",
+        "guzzlehttp/guzzle": "~6.0",
+        "kornrunner/keccak": "~1.0",
+        "phpseclib/phpseclib": "~2.0.11"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Web3\\": "app/library/web3/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+
+
+}

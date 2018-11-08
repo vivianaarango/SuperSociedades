@@ -1,0 +1,15 @@
+indexes:
+
+- kind: MessengerPosition
+  properties:
+  - name: messenger_id
+    direction: asc
+  - name: dateMillis
+    direction: desc
+
+- kind: AdminLogs
+  properties:
+  - name: messenger_id
+    direction: asc
+  - name: dateMillis
+    direction: desc
