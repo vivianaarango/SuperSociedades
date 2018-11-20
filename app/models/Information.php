@@ -5,20 +5,26 @@ use \Phalcon\Mvc\Model;
 /**
  * 
  */
-class Action extends Model
+class Information extends Model
 {
 
     /**
      *
      * @var integer
      */
-    public $id;
+    public $id_information;
 
     /**
      *
      * @var string
      */
-    public $name;
+    public $type;
+
+    /**
+     *
+     * @var string
+     */
+    public $description;
 
     /**
      * Initialize method for model.

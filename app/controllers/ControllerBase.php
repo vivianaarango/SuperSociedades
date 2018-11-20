@@ -22,6 +22,7 @@ class ControllerBase extends Controller {
     const ENDPOINTKEY = "d480de5181054b398561cfcfedac147a";
     const ENDPOINT = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/";
     const TERM = "turn on the left light";
+    const ANSWER_FAILURE = "En este caso concreto, se necesitaría un análisis de la normatividad, cabe destacar que este chat es un medio de consultas, limitado a entregar información de carácter general de servicios y funciones de la Superintendencia de Sociedades, que no remplaza los canales de comunicación estipulados en la legislación vigente, de tal modo que las respuestas tendrán carácter meramente informativo y no constituyen un acto administrativo. Solo es un punto de orientación, en ese caso y en vista de la dificultad de la consulta, usted deberá elevarla por escrito a esta Superintendencia, en el correo: webmaster@supersociedades.gov.co Para que la entidad le  indique a través de un concepto.";
    
     /**
      *

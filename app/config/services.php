@@ -65,13 +65,6 @@ $di->set('modelsManager', function() {
     return $modelsManager;
 });
 
-/**
- * Simple database connection to localhost
- */
-$di->set('mongo', function() use ($config) {
-    $mongo = new MongoClient();
-    return $mongo->selectDB($config->mongodb->dbname);
-}, true);
 
 /**
  * Registering the collectionManager service
