@@ -2,12 +2,7 @@
 
 use Phalcon\Mvc\Controller;
 
-/**
- *
- * @author Julián Arturo Molina Castiblanco
- * @version 0.1
- * @copyright Logisticapp.sa
- */
+
 require __DIR__ . '/../../vendor/autoload.php';
 
 
@@ -18,11 +13,15 @@ class ControllerBase extends Controller {
     const FAILED = 409;
     const FAILED_MESSAGE = "FAILED OPERATION";
     const SUCCESS_MESSAGE = "SUCCESS OPERATION";
-    const APPID = "32c86169-3c1d-4e16-914b-d09a22635ddd";
-    const ENDPOINTKEY = "d480de5181054b398561cfcfedac147a";
+    const APPID_1 = "036582b0-bae3-4817-9d08-61cb0edb2b74"; //SuperSociedades
+    const APPID_2 = "18e18147-0907-42d6-9ff3-7f885ad7843e"; //SuperSociedades1
+    const ENDPOINTKEY = "0b2b3577deaa4603b038390ca10ad863";
+    //const ENDPOINTKEY_2 = "d480de5181054b398561cfcfedac147a"; //SuperSociedades1
     const ENDPOINT = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/";
     const TERM = "turn on the left light";
-    const ANSWER_FAILURE = "En este caso concreto, se necesitaría un análisis de la normatividad, cabe destacar que este chat es un medio de consultas, limitado a entregar información de carácter general de servicios y funciones de la Superintendencia de Sociedades, que no remplaza los canales de comunicación estipulados en la legislación vigente, de tal modo que las respuestas tendrán carácter meramente informativo y no constituyen un acto administrativo. Solo es un punto de orientación, en ese caso y en vista de la dificultad de la consulta, usted deberá elevarla por escrito a esta Superintendencia, en el correo: webmaster@supersociedades.gov.co Para que la entidad le  indique a través de un concepto.";
+    const PASSWORD = "supersociedades*";
+    const ANSWER_FAILURE = 'No he logrado entender la pregunta.¿Podria repetirla por favor?';
+    const ANSWER_FAILURE_ERROR = "En este caso concreto, se necesitaría un análisis de la normatividad, cabe destacar que este chat es un medio de consultas, limitado a entregar información de carácter general de servicios y funciones de la Superintendencia de Sociedades, que no remplaza los canales de comunicación estipulados en la legislación vigente, de tal modo que las respuestas tendrán carácter meramente informativo y no constituyen un acto administrativo. Solo es un punto de orientación, en ese caso y en vista de la dificultad de la consulta, usted deberá elevarla por escrito a esta Superintendencia, en el correo: webmaster@supersociedades.gov.co Para que la entidad le  indique a través de un concepto.";
    
     /**
      *
